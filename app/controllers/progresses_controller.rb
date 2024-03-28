@@ -9,7 +9,7 @@ class ProgressesController < ApplicationController
     def create
         current_game = Game.find(params[:game_id])
         
-        # 回答した内容を保存する 
+        # 回答した内容を保存する.
         progress = current_game.progresses.new(create_params)
         progress.assign_sequence
         progress.save!
