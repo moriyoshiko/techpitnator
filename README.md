@@ -22,4 +22,4 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-# RailSearch_Akinator
+# RailsSearch_Akinator
